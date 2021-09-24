@@ -16,5 +16,5 @@
 #texto = "uno\ndos\ntres"
 #print (texto)
 
-mi_mensaje= "hola    .   "
+mi_mensaje= "hola   "
 print(mi_mensaje.strip())
