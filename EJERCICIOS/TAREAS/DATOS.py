@@ -1,5 +1,7 @@
 #Presentación
+print ("\n")
 print ("¡Bienvenido a nuestras oficinas!".upper())
+print ("\n")
 print ("Le voy a solicitar una serie de datos para registrarlo en nuestra\n base de datos")
 
 #Solicitud de datos
@@ -10,12 +12,13 @@ dirección = input ("dirección: ")
 e_mail = input ("e-mail: ")
 nacionalidad = input ("nacionalidad: ")
 
+
+#Código de prueba adicional
 #Se imprime el mensaje
-print (f"Buenas tardes, me comentaste que tu nombre es {nombre},\n tienes {edad} años,tu teléfono celular es: {teléfono},\n vives en {dirección},\n tu correo electrónico es {e_mail},\n y tu nacionalidad es {nacionalidad},\n")
-respuesta = input("Si los datos son correctos, presione true para confirmar o false para modificar: ")
+#print (f"Buenas tardes, me comentaste que tu nombre es {nombre},\n tienes {edad} años,tu teléfono celular es: {teléfono},\n vives en {dirección},\n tu correo electrónico es {e_mail},\n y tu nacionalidad es {nacionalidad},\n")
+#respuesta = input("Si los datos son correctos, presione true para confirmar o false para modificar: ")
 #respuesta1= 
 #respuesta2= 
-
 #condicionante
 #if respuesta == True:
   #  print = ("Su registro ha sido exitoso")
