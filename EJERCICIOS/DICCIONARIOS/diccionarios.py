@@ -87,15 +87,68 @@
 # dict_keys = dict_1.keys()
 # print(dict_keys)
 
-"""7. Imprimir clave y calor"""
-print ("Imprimir clave y valor")
+# """7. Imprimir clave y valor"""
+# print ("Imprimir clave y valor")
 
-dict_1 = {
-    "2": "dos",
-    "3": "tres",
-    "4": "cuatro"
-}
-for key, value in dict_1.items():
-    print(key, value)
+# dict_1 = {
+#     "2": "dos",
+#     "3": "tres",
+#     "4": "cuatro"
+# }
+# for key, value in dict_1.items():
+#     print(key, value)
 
 
+# """8. Insertar claves y valores si no existen"""
+# print ("Insertar claves y valores si no existen")
+
+# dict_1 = {
+#     "2": "dos",
+#     "3": "tres",
+#     "4": "cuatro"
+# }
+# dict_1.update ({"5": "cinco"})
+# print(dict_1)
+
+ # """9. Insertar clave y valor si no existe; si existe lo retorna, no lo edita"""
+# print ("Insertar claves y valores )
+
+# dict_1 = {
+#     "2": "dos",
+#     "3": "tres",
+#     "4": "cuatro"
+# }
+# dict_1.setdefault("7", "siete")
+# dict_1.setdefault("7", "SIETE")
+# print(dict_1)
+
+ # """12. Insertar clave y valor si no existe; si existe lo retorna, no lo edita"""
+# print ("Insertar claves y valores )
+
+# dict_1 = {
+#     "2": "dos",
+#     "3": "tres",
+#     "4": "cuatro"
+# }
+# dict_1 = {**dict_1, **{"6":"seis"}}
+# print(dict_1)
+
+# """13. Editar clave"""
+# print ("Editar clave")
+
+# dict_1 = {
+#     "2": "dos",
+#     "3": "tres",
+#     "4": "cuatro"
+# }
+# dict_1 ["2s"] = dict_1.pop("2")
+# print(dict_1)
+
+
+"""14. Retornar un diccionario agregando con claves y valores declarados"""
+print ("Editar clave")
+
+campo = ["key1", "key2"]
+valor = ""
+dict3 = dict.fromkeys(campo, valor)
+print(dict3)
