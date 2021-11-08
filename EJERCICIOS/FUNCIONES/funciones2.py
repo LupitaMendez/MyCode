@@ -10,3 +10,4 @@ def my_funcion ():
 
 my_funcion()
 
+"""Tarea encapsular programas en su propia función"""

@@ -10,19 +10,9 @@ print ("¡Bienvenido a McDonals!")
 usuario = input("Ingrese su usuario: ")
 contraseña = input ("Ingrese su contraseña: ")
 
-contraseña2 = acceder [usuario] #Se accede a través de la clave
+contraseña2 = acceder.get(usuario, ) #Se accede a través de la clave
 
 if contraseña2 == contraseña:
-    print("Bienvenido")
+    print(f"¡Bienvenid@ '{usuario}'!")
 else:
-    print("Usuario y o contraseña erronea")
-
-
-
-# print(contraseña2)
-# print ({usuario} in acceder)
-# for i in acceder.items():
-#          print(i)
-# print(acceder [contraseña])
-
-
+    print("Usuario y/o contraseña erronea")
